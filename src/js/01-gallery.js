@@ -11,7 +11,7 @@ const createGalleryItem = (record, tabContent) => {
     .map(item => {
       return `
           <li>
-            <a class="gallery__link" href="${item.original}">
+            <a class="gallery__item" href="${item.original}">
               <img
                 class="gallery__image"
                 src="${item.preview}"
